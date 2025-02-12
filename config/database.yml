@@ -27,5 +27,5 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: <%= ENV['DATABASE_URL'] %>
+  database: <%= ENV["DATABASE_URL"] %>
 
