@@ -29,3 +29,7 @@ production:
   pool: 5
   database: <%= ENV["DATABASE_URL"] %>
 
+cable:
+  adapter: postgresql
+  url: <%= ENV["DATABASE_URL"] %>
+  pool: 5
